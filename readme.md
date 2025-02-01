@@ -126,11 +126,13 @@ WORDPRESS_PASSWORD=your_admin_password
 
 ```
 
-crewai-wordpress-generator/
+ai-wordpress-agent/
 
 ├── crew_logic.py # Main crew and agent definitions
+├── main.py # Main file
 ├── tools/
 │ └── wordpress_upload_tool.py # WordPress interaction tool
+│ └── __init__.py
 ├── .env # Environment variables
 └── README.md # This file
 
@@ -194,7 +196,7 @@ Common issues and solutions:
 - Review WordPress compatibility
   For additional support or questions, please open an issue in the repository.
 
-## Support and Reward
+## ☕ Support and Reward
 
 - [Saweria](https://saweria.co/harrylicious)
 - [Buy me a coffe](https://buymeacoffee.com/harrylicious)
