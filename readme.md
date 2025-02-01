@@ -4,7 +4,7 @@ An automated content creation system that generates SEO-optimized, casual-friend
 ![image.png](scheme.png)
 
 **Watch the Demo**
-[![Watch the Demo](cover-video.png)](demo.mp4)
+![image.gif](demo.gif)
 
 ## 🌟 Features
 
