@@ -3,6 +3,9 @@
 An automated content creation system that generates SEO-optimized, casual-friendly articles and publishes them directly to WordPress. The system uses CrewAI to orchestrate multiple AI agents that handle different aspects of the content creation pipeline.
 ![image.png](scheme.png)
 
+**Watch the Demo**
+[![Watch the Demo](cover-video.png)](demo.mp4)
+
 ## 🌟 Features
 
 - Trend analysis and research
@@ -31,7 +34,7 @@ cd  ai-wordpress-agent
 2. Install required packages:
 
 ```bash
-pip  install  crewai  crewai-tools  python-dotenv  requests  uvicorn
+pip  install crewai crewai-tools python-dotenv requests fastapi uvicorn
 ```
 
 3. Set up your environment variables in a `.env` file:
@@ -46,20 +49,9 @@ WORDPRESS_PASSWORD=your_admin_password
 
 ## 🚀 Usage
 
-```python
-from crew_logic import create_crew
-
-
-# Create a new crew instance
-
-crew = create_crew(
-topic="your topic",
-language_code="target_language_code"  # e.g., "es" for Spanish
-)
-
-# Run the content creation pipeline
-result = crew.kickoff()
-```
+- Start server _uvicorn main:app --host 0.0.0.0 --port 8000_
+- Access server http://0.0.0.0:8000/docs
+- **Try out!**
 
 ## 🤖 Agent Roles
 
